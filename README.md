@@ -4,6 +4,8 @@ Sina Weibo (新浪微博), commonly referred to as “Chinese Twitter”,  is a 
 
 The data is crawled in two phases, covering a total of 4,047,389 Weibo posts. The first crawler ran on February 26, 2020 and collected 3.3 million Weibo posts from January 18, 2020 to February 26, 2020. The second crawler ran on April 4, crawling from December 7, 2020 to April 4, 2020 to complement the original dataset. The temporal distribution of the Weibo data is shown in Figure 1.
 
+![](./images/weibo_temporal.png)
+
 ### Citation
 If you use this data in your research, please cite the following article. Please feel free to reach out to Yujia Zhai at yjzhai@tjnu.edu.cn for questions. 
 
@@ -25,7 +27,14 @@ The crawler program automatically entered one of the keywords into the query box
 
 For each query, the time range increased by one hour and each query searched all the new posts within an hour. Each query returned a maximum of 50 pages, each contained around 20 posts. Therefore, if the number of posts within that hour exceeded 1000, the posts could not be fully collected due to the limitations of the search function. If the number posts exceed the page limits, we cannot fully collect the information due to the limitations of the search function. 
 
+![](./images/weibo_search.png)
+
 ## Metadata of the Weibo data
 We illustrate a weibo in Figure 3, which contains user name, content, timestamp, number of reposts, comments and likes. 
 
+![](./images/weibo.png)
+
 We present the Weibo metadata in Table 1 and Figure 4. 
+
+![](./images/weibo_data.png)
+

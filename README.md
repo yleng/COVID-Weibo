@@ -1,37 +1,31 @@
-## Welcome to GitHub Pages
+## Weibo COVID dataset
 
-You can use the [editor on GitHub](https://github.com/yleng/COVID-Weibo/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Sina Weibo (新浪微博), commonly referred to as “Chinese Twitter”,  is a micro-blogging site. This Weibo data was collected for research in COVID-19 only. The data was crawled on the Weibo platform from December 7, 2019 to April 4, 2020. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The data is crawled in two phases, covering a total of 4,047,389 Weibo posts. The first crawler ran on February 26, 2020 and collected 3.3 million Weibo posts from January 18, 2020 to February 26, 2020. The second crawler ran on April 4, crawling from December 7, 2020 to April 4, 2020 to complement the original dataset. The temporal distribution of the Weibo data is shown in Figure 1.
 
-### Markdown
+### Citation
+If you use this data in your research, please cite the following article. Please feel free to reach out to Yujia Zhai at yjzhai@tjnu.edu.cn for questions. 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Leng, Yan, Yujia Zhai, Shaojing Sun, Yifei Wu, Jordan Selzer, Sharon Strover, Julia Fensel, Alex Pentland, and Ying Ding. "Analysis of misinformation during the COVID-19 outbreak in China: cultural, social and political entanglements." arXiv preprint arXiv:2005.10414 (2020).
 
-```markdown
-Syntax highlighted code block
+## Data collection method
 
-# Header 1
-## Header 2
-### Header 3
+The Weibo data is obtained by a python crawler. The crawler automatically uses Weibo's advanced search function for keyword indexing. 
 
-- Bulleted
-- List
+The keywords we used included:
+- COVID-19
+- novel coronavirus(新型冠状病毒)
+- corona(新冠)
+- epidemics(疫情)
+- novel pneumonia(新型肺炎)
+- pneumonia in Wuhan(武汉+肺炎)
 
-1. Numbered
-2. List
+The crawler program automatically entered one of the keywords into the query box, and set the query time range to be a specific hour. As illustrated in Figure 2, the crawler sets the time range to be January 18, 2020 00:00:00 to January 18, 2020 01:00:00. 
 
-**Bold** and _Italic_ and `Code` text
+For each query, the time range increased by one hour and each query searched all the new posts within an hour. Each query returned a maximum of 50 pages, each contained around 20 posts. Therefore, if the number of posts within that hour exceeded 1000, the posts could not be fully collected due to the limitations of the search function. If the number posts exceed the page limits, we cannot fully collect the information due to the limitations of the search function. 
 
-[Link](url) and ![Image](src)
-```
+## Metadata of the Weibo data
+We illustrate a weibo in Figure 3, which contains user name, content, timestamp, number of reposts, comments and likes. 
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/yleng/COVID-Weibo/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+We present the Weibo metadata in Table 1 and Figure 4. 

@@ -1,4 +1,4 @@
-## Weibo COVID dataset
+# Weibo COVID dataset
 
 Sina Weibo (新浪微博), commonly referred to as "Chinese Twitter",  is a micro-blogging site. This Weibo dataset was used in [Analysis of misinformation during the COVID-19 outbreak in China: cultural, social and political entanglements](https://arxiv.org/abs/2005.10414). The data was crawled on the Weibo platform from December 7, 2019, to April 4, 2020.
 

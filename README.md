@@ -62,7 +62,7 @@ We present the Weibo metadata in Table 1 and Figure 4.
 | date | posting time | 
 | likeNum | number of likes | 
 | forwardNum | number of reposts | 
-| repost | the original weibo reposted by this weibo, containing the content/timestamp/image / user_id. Note: not all weibo has this variable |
+| repost | the original weibo reposted by this weibo, containing the content/timestamp/image/user_id. Note: not all weibo has this variable |
 
 ![](./img/weibo_data.png)
 *Figure 4. Metadata of Weibo data*

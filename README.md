@@ -8,7 +8,7 @@ The data is crawled in two phases, covering a total of 4,047,389 Weibo posts. Th
 
 *Figure 1. Weibo data temporal distribution*
 
-### Citation
+## How to acquire the dataset
 This Weibo data was collected for and can only be used for research purposes. Please complete [google form](https://docs.google.com/forms/d/e/1FAIpQLSdxk9tb6tXsDA7FyCCDBkOmAZD3mf8dz_xm2huB-_lS3Yelng/viewform?usp=pp_url) to acquire this corpus. We will email you the instructions to download the data. 
 
 If you use this data in your research, please cite the following article. Please reach out to Yujia Zhai at yjzhai@tjnu.edu.cn for questions related to the data.  

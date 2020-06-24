@@ -57,10 +57,8 @@ We present the Weibo metadata in Table 1 and Figure 4.
 | weibo_id | the unique identifier of the weibo |
 | user_id | the unique identifier for user |
 | from | the type of the device sent this weibo |
-| commentNum | number of comments | 
 | content | content of the weibo |
 | timestamp | posting time | 
-| likeNum | number of likes | 
 | repost | the original weibo reposted by this weibo, containing the content/timestamp/image/user_id. Note: not all weibo has this variable |
 
 ![](./img/weibo_data.png)

@@ -59,9 +59,8 @@ We present the Weibo metadata in Table 1 and Figure 4.
 | from | the type of the device sent this weibo |
 | commentNum | number of comments | 
 | content | content of the weibo |
-| date | posting time | 
+| timestamp | posting time | 
 | likeNum | number of likes | 
-| forwardNum | number of reposts | 
 | repost | the original weibo reposted by this weibo, containing the content/timestamp/image/user_id. Note: not all weibo has this variable |
 
 ![](./img/weibo_data.png)

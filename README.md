@@ -16,12 +16,22 @@ If you use this data in your research, please cite the following article. Please
 Leng, Yan, Yujia Zhai, Shaojing Sun, Yifei Wu, Jordan Selzer, Sharon Strover, Julia Fensel, Alex Pentland, and Ying Ding. "Analysis of misinformation during the COVID-19 outbreak in China: cultural, social and political entanglements." arXiv preprint arXiv:2005.10414 (2020).
 
 ```
-@article{leng2020analysis,
-  title={Analysis of misinformation during the COVID-19 outbreak in China: cultural, social and political entanglements},
-  author={Leng, Yan and Zhai, Yujia and Sun, Shaojing and Wu, Yifei and Selzer, Jordan and Strover, Sharon and Fensel, Julia and Pentland, Alex and Ding, Ying},
-  journal={arXiv preprint arXiv:2005.10414},
-  year={2020}
+@ARTICLE {9340553,
+author = {Y. Leng and Y. Zhai and S. Sun and Y. Wu and J. Selzer and S. Strover and H. Zhang and A. Chen and Y. Ding},
+journal = {IEEE Transactions on Big Data},
+title = {Misinformation during the COVID-19 outbreak in China: cultural, social and political entanglements},
+year = {5555},
+volume = {},
+number = {01},
+issn = {2332-7790},
+pages = {1-1},
+keywords = {covid-19;blogs;social networking (online);pandemics;media;urban areas;big data},
+doi = {10.1109/TBDATA.2021.3055758},
+publisher = {IEEE Computer Society},
+address = {Los Alamitos, CA, USA},
+month = {jan}
 }
+
 ```
 
 ## Data collection method

@@ -1,6 +1,6 @@
 # Weibo COVID dataset
 
-Sina Weibo (新浪微博), commonly referred to as "Chinese Twitter",  is a micro-blogging site. This Weibo dataset was used in [Analysis of misinformation during the COVID-19 outbreak in China: cultural, social and political entanglements](https://www.computer.org/csdl/journal/bd/5555/01/09340553/1qMJJIm92rm). You can access the file through [this link](https://github.com/yleng/COVID-Weibo/blob/master/Misinformation_COVID_IEEE_Leng.pdf). The data was crawled on the Weibo platform from December 7, 2019, to April 4, 2020.
+Sina Weibo (新浪微博), commonly referred to as "Chinese Twitter",  is a micro-blogging site. This Weibo dataset was used in [Analysis of misinformation during the COVID-19 outbreak in China: cultural, social and political entanglements](https://www.computer.org/csdl/journal/bd/5555/01/09340553/1qMJJIm92rm). You can access the ppaer through [this link](https://github.com/yleng/COVID-Weibo/blob/master/Misinformation_COVID_IEEE_Leng.pdf). The data was crawled on the Weibo platform from December 7, 2019, to April 4, 2020.
 
 The data is crawled in two phases, covering a total of 4,047,389 Weibo posts. The first crawler ran on February 26, 2020, and collected 3.3 million Weibo posts from January 18, 2020, to February 26, 2020. The second crawler ran on April 4, crawling from December 7, 2020, to April 4, 2020, to complement the original dataset. The temporal distribution of the Weibo data is shown in Figure 1.
 
